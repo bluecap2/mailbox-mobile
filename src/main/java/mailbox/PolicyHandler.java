@@ -10,6 +10,9 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class PolicyHandler{
-    
+    @StreamListener(KafkaProcessor.INPUT)
+    public void wheneverSaved_수신알람(@Payload Sent sent){
+
+    }
 
 }
