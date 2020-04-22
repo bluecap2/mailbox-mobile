@@ -1,0 +1,8 @@
+mailbox\AbstractEvent.class
+mailbox\config\kafka\KafkaProcessor.class
+mailbox\Application.class
+mailbox\MobileRepository.class
+mailbox\Mobile.class
+mailbox\MobileController.class
+mailbox\PolicyHandler.class
+mailbox\Sent.class
